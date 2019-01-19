@@ -3,17 +3,15 @@
     flex: 1;
     overflow: scroll;
 }
+
 .chat {
 
     height: 56px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row nowrap;
     margin-top: 10px;
-
-    /*border-bottom: 1px solid grey;*/
 
 }
 
@@ -22,8 +20,6 @@
     width: 56px;
     margin-left: 4px;
     border-radius: 50%;
-
-
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -42,7 +38,6 @@
 .chat-main-up {
 
     height: 28px;
-
     display: flex;
     justify-content: space-between;
 }
@@ -94,6 +89,16 @@
 
 
     }
+.img-1{
+    height: 220px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
 .space{
     height: 5px;
     background-color: lightgrey;

@@ -1,0 +1,106 @@
+.menus{
+    height: 50px;
+
+    background-color: wheat;
+    display: flex;
+}
+.menus-area{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: column ;
+}
+.menus-up{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-between;
+}
+.menus-down{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-between;
+
+}
+.menus-up div:nth-child(1){
+    height: 40px;
+    flex: 1;
+    background-image: url(../ing/首页-选中.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+
+}
+.menus-up div:nth-child(2){
+    height: 40px;
+    flex: 1;
+    background-image: url(../ing/视频.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+}
+.menus-up div:nth-child(3){
+    height: 40px;
+    flex: 1;
+    background-image: url(../ing2/add.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+}
+.menus-up div:nth-child(4){
+    height: 40px;
+    flex: 1;
+    background-image: url(../ing/拍视频.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+}
+.menus-up div:nth-child(5){
+    height: 40px;
+    flex: 1;
+    background-image: url(../ing2/me.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+}
+.menus-down div:nth-child(1){
+    height: 10px;
+    flex: 1;
+    line-height: 38px;
+    text-align: center;
+
+
+
+}
+.menus-down div:nth-child(2){
+    height: 10px;
+    flex: 1;
+    text-align: center;
+    line-height: 38px;
+
+}
+.menus-down div:nth-child(3){
+    height: 10px;
+    flex: 1;
+    text-align: center;
+    line-height: 38px;
+
+}
+.menus-down div:nth-child(4){
+    height: 10px;
+    flex: 1;
+    text-align: center;
+    line-height: 38px;
+
+}
+.menus-down div:nth-child(5){
+    height: 10px;
+    flex: 1;
+    text-align: center;
+    line-height: 38px;
+
+
+}

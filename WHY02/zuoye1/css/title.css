@@ -1,0 +1,106 @@
+.title{
+    height:30px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+}
+.title-area{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.title-area div{
+    height: 30px;
+    flex: 1;
+    line-height: 30px;
+
+}
+.title-area div:nth-child(8){
+    position: relative;
+}
+#img-123{
+    background-image: url(../ing/排房-加载更多.svg);
+    height: 20px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    left: 20px;
+    background-color:lightyellow;
+
+}
+#play-panel {
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top : 100%;
+    background-color: white;
+    transition: all .3s linear;
+
+}
+#quxiao{
+    height: 20px;
+    background-image: url(../ing2/取消.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+#caidan{
+
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+#caidan div:nth-child(1){
+    width: 80px;
+    line-height: 30px;
+
+
+}
+#caidan div:nth-child(2){
+    width: 100px;
+    font-size: 12px;
+    color: lightgrey;
+    line-height: 35px;
+
+
+
+}
+#caidan div:nth-child(3){
+    flex: 1;
+    display: flex;
+}
+.bianji{
+    height: 23px;
+    width: 40px;
+    border: red 1px solid;
+    color: red;
+    justify-content: flex-end;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 23px;
+}
+.liebiao{
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-around;
+}
+.liebiao div{
+    height: 30px;
+    width: 80px;
+
+    background-color: rgba(211, 211, 211, 0.38);
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+
+}

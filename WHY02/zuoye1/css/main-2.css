@@ -1,0 +1,146 @@
+.main-2{
+    background-color: white;
+    flex: 1;
+    overflow: scroll;
+}
+.start{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.start div:nth-child(1){
+    width: 80px;
+
+}
+.start div:nth-child(2){
+    flex: 1;
+
+}
+.start div:nth-child(3){
+    width: 30px;
+    line-height: 80px;
+
+}
+.tou-1{
+    height: 80px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+
+}
+.nickname-1{
+    height: 40px;
+    margin-left: 10px;
+
+}
+.renzheng{
+    height: 40px;
+
+}
+.huifu-1{
+    background-color: #ff8687;
+    border-radius: 10px;
+    width: 60px;
+    margin: 10px;
+    border: none;
+}
+.start-1{
+    height: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+.menus-up-1{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-between;
+}
+
+.menus-up-1 div{
+    flex:1;
+    text-align: center;
+    line-height: 70px;
+    font-size: 18px;
+}
+
+.menus-down-1{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-between;
+}
+.menus-down-1 div{
+    flex:1;
+    text-align: center;
+    font-size: 10px;
+
+}
+.start-2{
+    height: 80px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.start-2-up{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-between;
+}
+.start-2-down{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-around;
+
+}
+.start-2-up div{
+    height: 40px;
+    width: 100%;
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+
+
+}
+.start-2-down div{
+    height: 40px;
+    line-height: 20px;
+
+    font-size: 14px;
+    text-align: center;
+
+
+
+}
+.mulu{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: gainsboro 1px solid;
+}
+.mulu div:nth-child(1){
+    flex: 1;
+    line-height: 50px;
+   margin-left: 12px;
+
+}
+.mulu div:nth-child(2){
+    flex: 1;
+    text-align: right;
+    margin-right: 12px;
+    line-height: 50px;
+    color: rgba(17, 15, 14, 0.5);
+    font-size: 13px;
+}
+
+

@@ -1,0 +1,200 @@
+#title_right-1{
+    width: 60px;
+    background-image: url(../ing2/回答.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 40%;
+
+
+}
+.zi-1{
+    line-height: 50px;
+    text-align: right;
+}
+.center-up{
+    flex: 1;
+    font-size: 15px;
+    padding-top: 5px;
+
+
+}
+.center-down{
+    flex: 1;
+    font-size: 12px;
+    margin-top: 5px;
+}
+#title_center-1 {
+    flex: 1;
+    height: 50px;
+    display: flex;
+    flex-flow: column;
+
+   justify-content: space-between;
+
+}
+.title-1{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: rgba(17, 15, 14, 0.45) 1px solid;
+
+}
+.title-1-left{
+    height: 70px;
+    flex: 1;
+    line-height: 70px;
+    margin-left: 10px;
+
+
+
+}
+.title-1-right{
+    height: 70px;
+    flex: 1;
+    line-height: 70px;
+    text-align: right;
+    margin-right: 10px;
+
+
+
+}
+.list{
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.list-left{
+    width: 70px;
+
+
+}
+.list-right{
+    flex: 1;
+}
+.photo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+
+}
+.list-right div:nth-child(1){
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.list-right div:nth-child(2){
+    height: 150px;
+
+}
+.list-right div:nth-child(3){
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    flex: 1;
+    color: #2196F3;
+    line-height: 40px;
+
+}
+.zan{
+    flex: 1;
+    display: flex;
+
+}
+.zan-tu{
+    flex: 1;
+    background-image: url(../ing2/点赞空心.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 12%;
+}
+.num{
+    width: 40px;
+    line-height: 40px;
+}
+.time-1{
+    width: 120px;
+    line-height: 40px;
+    font-size: 14px;
+
+}
+.huifu{
+
+    height: 25px;
+    border-radius: 13px;
+    width: 50px;
+    background-color: rgba(235, 235, 235, 0.48);
+    position: absolute;
+    left: 120px;
+    margin-top: 8px;
+    border: none;
+    text-align: center;
+
+}
+.picture{
+    background-image: url(../ing3/123.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.last-1{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.last-1 div:nth-child(1){
+    flex: 1;
+
+}
+.last-1 div:nth-child(2){
+    width: 50px;
+    background-image: url(../ing2/评论.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+.last-1 div:nth-child(3){
+    width: 50px;
+    background-image: url(../ing2/收藏2.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+.last-1 div:nth-child(4){
+    width: 50px;
+    background-image: url(../ing2/点赞空心.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+.last-1 div:nth-child(5){
+    width: 50px;
+    background-image: url(../ing2/转发.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+ }
+.pinglun{
+    background-image: url(../ing2/写评论.svg);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position: left;
+    padding-left: 5px;
+    border-radius: 13px;
+    border: none;
+    background-color: rgba(235, 235, 235, 0.54);
+    height: 30px;
+    margin: 10px;
+    width: 90%;
+}
+

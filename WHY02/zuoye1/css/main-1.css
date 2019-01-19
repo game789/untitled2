@@ -1,0 +1,139 @@
+.main-1{
+    background-color: white;
+    flex: 1;
+    overflow: scroll;
+}
+.chat-1 {
+
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+
+
+    /*border-bottom: 1px solid grey;*/
+
+}
+.chat-img-1 {
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+    border-radius: 50%;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.chat-main-up-1 {
+
+    height: 50px;
+   margin-top: -20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.chat-main-down-1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.chat-main-up-1 div{
+    height: 50px;
+    flex: 1;
+
+    display: flex;
+    flex-flow: column;
+}
+.chat-main-down-1 div:nth-child(1){
+    height: 50px;
+    flex: 1;
+    background-image: url(../ing3/私信.svg);
+
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+
+
+}
+.chat-main-down-1 div:nth-child(2){
+    height: 50px;
+    flex: 3;
+
+    background-image: url(../ing3/已关注.svg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+
+}
+.chat-main-down-1 div:nth-child(3){
+    height: 50px;
+    flex: 1;
+
+    background-image: url(../ing3/下三角.svg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+
+}
+.font-1{
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.font-2{
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+
+}
+.information{
+    height: 66px;
+}
+.information div{
+    height:22px;
+}
+.tupian{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+.zi{
+    margin-left: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.xuanxiang{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.xuanxiang div:nth-child(1){
+    flex: 1;
+    line-height: 40px;
+    text-align: right;
+
+
+}
+.xuanxiang div:nth-child(2){
+    flex: 1;
+    line-height: 40px;
+    text-align: center;
+}
+.xuanxiang div:nth-child(3){
+    flex: 1;
+    line-height: 40px;
+}
+.last{
+    height:25px;
+    font-size: 13px;
+    text-align: center;
+}

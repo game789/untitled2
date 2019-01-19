@@ -105,7 +105,7 @@
 
                 <div class="action ">苹果或将开发第七代ipod touch，以刺激Apple Music等服务收入。</div>
 
-                    <div  class="img " style=" background-image: url(../ing/微信图片_20190115211159.jpg)"></div>
+                    <div  class="img " style=" background-image: url(../ing4/2.jpg)"></div>
                 <div class="chat-down ">
                     <div class="">
                         <div class="a" style="background-image: url(../ing2/转发.svg)"></div>
@@ -149,7 +149,7 @@
             </div>
             <div class="action ">手机摔在地上，多半是四个角着地。<br>在研发上有正对性的做了四个角强化设计。</div>
 
-            <div  class="img " style="background-image: url(../ing3/微信图片_20190115222012.jpg)"></div>
+            <div  class="img-1 " style="background-image: url(../ing3/微信图片_20190115222012.jpg)"></div>
             <div class="chat-down ">
                 <div class="">
                     <div class="a" style="background-image: url(../ing2/转发.svg)"></div>
@@ -262,42 +262,31 @@
     })
 
 </script>
+
+
 <script>
+    let index = 2;
 
-    $(function(){
+    let task;
 
-        $("#title_right").click(function(){
-            $("#title_menu").toggle(400);
+    function loadImg() {
+        if (index === 4) index = 1;
+        $(".img").css("background-image", "url(../ing4/" + index + ".jpg)");
+        index++;
+    }
+
+    $(function(){ //当页面加载时
+
+        task = setInterval("loadImg()" , 1000); //启动定时器
+
+        $(".img").mouseover(function(){ //鼠标经过
+            window.clearInterval(task);
         });
 
-
-        $("#dynamic").load("../page/chat.html");
-
-
-
-        /*  控制底部图片*/
-        $("#menus div").each(function() {
-            $(this).css('background-image' , 'url('+$(this).data("normal")+')').css('background-size' , '30%');
-            // console.log($(this).data("normal"));
-        });
-
-        //当点击每一个
-        $(".menu").click( function() {
-
-            //让所有按钮的背景  再次变为 normal 状态
-            $(".menu").each(function(){
-                $(this).css('background-image' , 'url('+$(this).data("normal")+')');
-            });
-            //让被点击的层切换为  press
-            $(this).css('background-image' , 'url('+$(this).data("press")+')');
-
-
-            $("#container").load($(this).data("url"))
-
-        });
-
+        $(".img").mouseout(function(){ //鼠标移出
+            task = setInterval("loadImg()", 1000);
+        })
 
     })
-
 
 </script>
